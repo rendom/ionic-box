@@ -8,7 +8,7 @@ ANDROID_SDK=http://dl.google.com/android/$ANDROID_SDK_FILENAME
 apt-get update
 apt-get install -y npm git openjdk-7-jdk ant expect
 npm install -g n
-n stable
+n lts
 
 curl -O $ANDROID_SDK
 tar -xzvf $ANDROID_SDK_FILENAME
